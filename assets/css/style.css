@@ -53,10 +53,11 @@ header h1 {
   line-height: 1;
 }
 
-nav {
+nav ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  list-style: none;
 }
 
 nav a {
@@ -66,7 +67,7 @@ nav a {
   margin-right: 10px;
   background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
   background-repeat: no-repeat;
-  background-size: 100% 0.2em;
+  background-size: 90% 0.1em;
   background-position: bottom;
   transition: all 0.25s ease-in;
   font-size: 1.4rem;
@@ -99,6 +100,7 @@ main {
   justify-content: center;
   align-items: flex-end;
   text-align: right;
+  margin-top: 1%;
 }
 
 .hero-banner div {
@@ -106,7 +108,7 @@ main {
 }
 
 .hero-banner h2 {
-  background-color: var(--secondary);
+
   color: var(--tertiary);
   margin: 0;
   padding: 5px 10px;
