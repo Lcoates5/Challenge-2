@@ -26,11 +26,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Coming soon photo from https://www.istockphoto.com/photo/alarm-clock-and-coming-soon-written-white-lightbox-sitting-on-blue-background-gm1398619494-452698475?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcoming-soon&utm_medium=affiliate&utm_source=unsplash&utm_term=coming+soon%3A%3A%3A
 
 
 ## License

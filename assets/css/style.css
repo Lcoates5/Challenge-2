@@ -135,7 +135,7 @@ main {
   justify-content: space-between;
 }
 
-.page-section > h2 {
+.page-section>h2 {
   flex: 0 0 20%;
   text-align: right;
   padding-right: 15px;
@@ -144,7 +144,7 @@ main {
   line-height: 1.1;
 }
 
-.page-section > div {
+.page-section>div {
   flex: 0 0 77%;
 }
 
@@ -178,8 +178,8 @@ main {
 
 /* feature first portfolio item */
 .flex-item:first-child {
-    min-height: 400px;
-    flex-basis: 100%;
+  min-height: 400px;
+  flex-basis: 100%;
 }
 
 .flex-item:hover {
@@ -207,7 +207,7 @@ main {
   color: var(--tertiary);
   padding: 5px;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 25px;
   font-style: normal;
   background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
   background-repeat: no-repeat;
@@ -225,9 +225,22 @@ main {
 
 /* portfolio project images */
 /* TODO: Add portfolio project images here*/
+img "coming soon"
+
 
 /* media queries */
+@media screen and (max-width: 980px) {
 
+}
 /* TODO: add media query for a max-width of 980px */
 
 /* TODO: add media query for a max-width of 768px */
+@media screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .fkex-item {
+    width: 100%
+  }
+}
+
