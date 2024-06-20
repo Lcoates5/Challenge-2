@@ -195,7 +195,7 @@ main {
   font-size: 1.6rem;
 }
 
-.contact address {
+.contact {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -203,7 +203,7 @@ main {
   height: 100%;
 }
 
-.contact address a {
+.contact a {
   color: var(--tertiary);
   padding: 5px;
   text-decoration: none;
@@ -218,22 +218,38 @@ main {
   display: inline-block;
 }
 
-.contact address a:hover {
+.contact a :hover {
   background-size: 100% 88%;
   color: var(--secondary);
 }
 
 /* portfolio project images */
 /* TODO: Add portfolio project images here*/
+#horiseon {
+  background-image: url("../digital-marketing-meeting.jpg");
+}
 
+#comingsoon1 {
+  background-image: url("../istockphoto-1398619494-170667a.webp");
+}
 
+#comingsoon2 {
+  background-image: url("../istockphoto-1398619494-170667a.webp");
+}
 
+#comingsoon3 {
+  background-image: url("../istockphoto-1398619494-170667a.webp");
+}
+
+#comingsoon4 {
+  background-image: url("../istockphoto-1398619494-170667a.webp");
+}
 /* TODO: add media query for a max-width of 768px */
 @media screen and (max-width: 768px) {
   .flex-container {
     flex-direction: column;
   }
-  .fkex-item {
+  .flex-item {
     width: 100%
   }
 }
