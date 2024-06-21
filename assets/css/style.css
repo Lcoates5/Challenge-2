@@ -5,9 +5,9 @@
 /* brand color palette */
 :root {
   --primary: rgba(68, 88, 119, 1);
-  --secondary: rgba(146, 204, 206, 1);
-  --tertiary: rgba(49, 52, 61, 1);
-  --dark: rgba(28, 29, 33, 1);
+  --secondary: rgb(167, 171, 85);
+  --tertiary: rgb(82, 98, 107);
+  --dark: rgb(29, 33, 28);
   --light: rgba(238, 238, 247, 1);
 }
 
@@ -29,6 +29,10 @@ h6 {
   margin: 0;
 }
 
+h2 {
+  color: rgb(78, 72, 69);
+}
+
 p {
   margin: 0;
 }
@@ -41,7 +45,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   background-color: var(--tertiary);
-  box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+  box-shadow: 5px 5px 35px rgba(146, 204, 206, 0.4);
 }
 
 header h1 {
@@ -88,8 +92,8 @@ main {
 }
 
 .hero-banner {
-  background: rgb(68, 88, 120);
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background: rgb(96, 101, 84);
+  /* background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%); */
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -98,8 +102,6 @@ main {
   padding: 5% 30%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  text-align: right;
   margin-top: 1%;
 }
 
@@ -109,9 +111,9 @@ main {
 
 .hero-banner h2 {
 
-  color: var(--tertiary);
+  color: var(--dark);
   margin: 0;
-  padding: 5px 10px;
+  padding: 0px 0px;
   font-size: 2.3rem;
   line-height: 1.2;
   display: inline;
@@ -227,6 +229,7 @@ main {
 /* TODO: Add portfolio project images here*/
 #horiseon {
   background-image: url("../digital-marketing-meeting.jpg");
+  
 }
 
 #comingsoon1 {
